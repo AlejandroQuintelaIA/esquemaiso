@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preguntas Frecuentes - FAQ</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f6f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #005a9c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    section {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .faq-category {
+      margin-bottom: 40px;
+    }
+
+    .faq-category h2 {
+      color: #005a9c;
+      font-size: 28px;
+      border-bottom: 2px solid #005a9c;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    details {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      padding: 15px;
+      transition: background-color 0.3s ease;
+    }
+
+    details:hover {
+      background-color: #f1f1f1;
+    }
+
+    summary {
+      font-weight: bold;
+      font-size: 18px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    details[open] summary {
+      color: #005a9c;
+    }
+
+    .faq-footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .faq-footer a {
+      color: #005a9c;
+      text-decoration: none;
+    }
+
+    .faq-footer a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background-color: #f4f4f4;
+      color: #000000;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: bold;
+      border: 2px solid #000000;
+      transition: all 0.3s ease;
+    }
+
+    .contact-btn:hover {
+      background-color: #e0e0e0;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        margin: 20px;
+      }
+
+      header h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Preguntas Frecuentes (FAQ)</h1>
+    <p>Encuentra respuestas a las preguntas más comunes sobre nuestros productos y servicios.</p>
+  </header>
+
+  <section>
+    <!-- Categoria 1: Productos -->
+    <div class="faq-category">
+      <h2>Productos</h2>
+
+      <details>
+        <summary>¿Qué tipos de productos ofrecen?</summary>
+        <p>Ofrecemos una amplia variedad de productos electrónicos, ropa, y accesorios de tecnología de última
+          generación.</p>
+      </details>
+
+      <details>
+        <summary>¿Cómo saber si un producto está disponible en stock?</summary>
+        <p>En la página de cada producto podrás ver la disponibilidad en tiempo real. Si el producto está agotado,
+          podrás optar por recibir una notificación cuando vuelva a estar disponible.</p>
+      </details>
+
+      <details>
+        <summary>¿Ofrecen garantía para sus productos?</summary>
+        <p>Sí, todos nuestros productos vienen con una garantía mínima de 1 año, dependiendo del tipo de producto.
+          Consulta los términos y condiciones específicos de cada artículo.</p>
+      </details>
+    </div>
+
+    <!-- Categoria 2: Envíos -->
+    <div class="faq-category">
+      <h2>Envíos</h2>
+
+      <details>
+        <summary>¿Cuál es el tiempo estimado de envío?</summary>
+        <p>El tiempo de entrega varía entre 3 y 7 días hábiles, dependiendo de la ubicación y el método de envío
+          seleccionado.</p>
+      </details>
+
+      <details>
+        <summary>¿Puedo cambiar mi dirección de envío después de realizar el pedido?</summary>
+        <p>Es posible cambiar la dirección de envío dentro de las 2 horas posteriores a la realización del pedido.
+          Después de este tiempo, los pedidos ya se envían y no pueden ser modificados.</p>
+      </details>
+
+      <details>
+        <summary>¿Realizan envíos internacionales?</summary>
+        <p>Sí, ofrecemos envíos a varios países. Los costos y tiempos de envío internacionales varían según la
+          ubicación.</p>
+      </details>
+    </div>
+
+    <!-- Categoria 3: Pagos -->
+    <div class="faq-category">
+      <h2>Pagos</h2>
+
+      <details>
+        <summary>¿Qué métodos de pago aceptan?</summary>
+        <p>Aceptamos pagos con tarjetas de crédito, débito, PayPal y transferencias bancarias.</p>
+      </details>
+
+      <details>
+        <summary>¿Puedo pagar en cuotas?</summary>
+        <p>Sí, ofrecemos la opción de pago en cuotas a través de las principales plataformas de pago. Consulta las
+          opciones disponibles al momento de pagar.</p>
+      </details>
+
+      <details>
+        <summary>¿Es seguro realizar pagos en el sitio web?</summary>
+        <p>Sí, nuestra página utiliza encriptación SSL para garantizar que tus pagos y datos personales estén
+          completamente protegidos.</p>
+      </details>
+    </div>
+
+    <!-- Contacto -->
+    <div class="faq-footer">
+      <p>¿Aún tienes preguntas? <a href="mailto:soporte@ejemplo.com">Contáctanos</a> o visita nuestra <a
+          href="#">sección de ayuda</a>.</p>
+      <a href="mailto:soporte@ejemplo.com" class="contact-btn">Envíanos un correo</a>
+    </div>
+  </section>
+
+</body>
+
+</html>
